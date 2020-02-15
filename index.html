@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <title>Портфолио Junior верстальщика</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <title>Портфолио Junior верстальщика</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
   </head>
 
   <body>
     <header class="page-header">
       <div class="container">
-        maxim-borzya@mail.ru 
-        +7 913 884 72 64
+        <a class="header-email"
+        href="maxim-borzya@mail.ru">maxim-borzya@mail.ru</a>
+        <a class="header-phone"
+        href="+7 913 884 72 64">+7 913 884 72 64</a>
       </div>
     </header>
 
@@ -19,11 +21,55 @@
       <div class="container">
         <h1 class="heading">Лесников Максим Александрович</h1>
         <p>Junior верстальщик</p>
-      </div> 
+      </div>
     </section>
 
     <section class="intro">
-        <div class="container"></div>
+      <div class="container">
+        <h2 class="subheading">Давайте познакомимся</h2>
+        <figure class="user-image">
+          <img src="files/Ya.jpg" width="720" height="" alt="Фото Максима">  
+        </figure>
+        <div>
+          <h3>Пара слов о себе</h3>
+          <p>Здесь будет краткая биография</p>
+        </div>
+        <div>
+          <h3>Чем могу быть полезен</h3>
+          <p>Здесь будет описание моих преимуществ</p>
+        </div>
+        <div class="skills">
+          <h3>Мои навыки</h3>
+          <dl class="skills-list">
+            <dt class="skill-html">HTML</dt>
+            <dd class="level"><div style="width: 60%;">60%</div></dd>
+            <dt class="skill-css">CSS</dt>
+            <dd class="level"><div style="width: 40%;">40%</div></dd>
+          </dl>
+        </div>
+      </div>
     </section>
+
+    <section class="portfolio">
+      <h2 class="subheading">Мои работы</h2>
+      <figure class="project-image">
+        <img src="files/project.jpg" width="928" height="536" alt="Cайт инструктора Кекса">
+      </figure>
+      <h3>Сайт инструктора Кекса</h3>
+      <a class="button" href="source/project Инструктор-Кекс/project/index.html">Открыть страницу</a>
+      <p>Небольшой лендинг о школе для начинающих.</p>
+
+      <h3>Блог начинающего верстальщика</h3>
+      <p>Статический блог про обучение HTML и CSS.</p>
+    </section>
+
+    <footer class="page-footer">
+      <div class="container">
+        <a class="header-email"
+        href="maxim-borzya@mail.ru">maxim-borzya@mail.ru</a>
+        <a class="header-phone"
+        href="+7 913 884 72 64">+7 913 884 72 64</a>
+      </div>
+    </footer>
   </body>
 </html>
